@@ -1,0 +1,75 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ *{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 72px;
+ }
+
+ nav ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+ }
+
+ .btn{
+    all: unset;
+    color: white;
+    background: #D01C28;
+    padding: 6px 16px;
+ }
+
+ main{
+    display:flex;
+    align-items: center;
+    height: calc(100vh - 72px);
+    max-width: 1125px;
+    margin: 0 auto;
+    gap: 36px;
+ }
+
+ h1{
+    font-size: 92px;
+    font-weight: 800;
+    line-height: 102px;
+ }
+
+ .hero-para{
+    max-width: 404px;
+    font-size: 16px;
+ }
+
+ .hero-btn{
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+ }
+
+ .secondary-btn{
+    padding: 6px 16px;
+    color: gray;
+    background-color: transparent;
+    border: 1px solid gray;
+ }
+
+ .icons{
+    display: flex;
+    gap: 16px;
+ }
+
+ .icon-section{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .hero-content{
+   display: flex;
+   gap:20px;
+   flex-direction: column;
+ }
